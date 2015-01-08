@@ -14,6 +14,7 @@
 		F7C9A5DA1A5F27D800FDE338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C9A5D91A5F27D800FDE338 /* Images.xcassets */; };
 		F7C9A5DD1A5F27D800FDE338 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C9A5DB1A5F27D800FDE338 /* LaunchScreen.xib */; };
 		F7C9A5E91A5F27D900FDE338 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C9A5E81A5F27D900FDE338 /* GitTestTests.m */; };
+		F7C9A5F41A5F2B7700FDE338 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C9A5F31A5F2B7700FDE338 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F7C9A5E21A5F27D800FDE338 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C9A5E71A5F27D900FDE338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7C9A5E81A5F27D900FDE338 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		F7C9A5F21A5F2B7700FDE338 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		F7C9A5F31A5F2B7700FDE338 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				F7C9A5D91A5F27D800FDE338 /* Images.xcassets */,
 				F7C9A5DB1A5F27D800FDE338 /* LaunchScreen.xib */,
 				F7C9A5CC1A5F27D800FDE338 /* Supporting Files */,
+				F7C9A5F21A5F2B7700FDE338 /* TestClass.h */,
+				F7C9A5F31A5F2B7700FDE338 /* TestClass.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C9A5F41A5F2B7700FDE338 /* TestClass.m in Sources */,
 				F7C9A5D51A5F27D800FDE338 /* ViewController.m in Sources */,
 				F7C9A5D21A5F27D800FDE338 /* AppDelegate.m in Sources */,
 				F7C9A5CF1A5F27D800FDE338 /* main.m in Sources */,
