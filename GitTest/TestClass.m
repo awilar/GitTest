@@ -10,4 +10,10 @@
 
 @implementation TestClass
 
+-(void)testMethod{
+    
+    NSLog(@"branch test");
+    
+}
+
 @end
